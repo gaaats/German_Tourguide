@@ -136,7 +136,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingTop="24dp"
-            android:text="tghyhyhy"
+            android:text="Loading..."
             android:textColor="@color/add_colour_the_most_dark"
             android:textSize="15sp"
             android:textStyle="italic" />
