@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation_german"
+    app:startDestination="@id/enteringFragment">
+
+    <fragment
+        android:id="@+id/enteringFragment"
+        android:name="com.germanart.germantourguide.EnteringFragment"
+        android:label="fragment_entering"
+        tools:layout="@layout/fragment_entering" >
+        <action
+            android:id="@+id/action_enteringFragment_to_germanCuisineFragment"
+            app:destination="@id/germanCuisineFragment" />
+        <action
+            android:id="@+id/action_enteringFragment_to_airportsGermanFragment"
+            app:destination="@id/airportsGermanFragment" />
+        <action
+            android:id="@+id/action_enteringFragment_to_intrestingFactsGermanFragment"
+            app:destination="@id/intrestingFactsGermanFragment" />
+        <action
+            android:id="@+id/action_enteringFragment_to_airQualityFragment"
+            app:destination="@id/airQualityFragment" />
+        <action
+            android:id="@+id/action_enteringFragment_to_addInfoFragment"
+            app:destination="@id/addInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/airQualityFragment"
+        android:name="com.germanart.germantourguide.AirQualityFragment"
+        android:label="fragment_air_quality"
+        tools:layout="@layout/fragment_air_quality" />
+    <fragment
+        android:id="@+id/intrestingFactsGermanFragment"
+        android:name="com.germanart.germantourguide.IntrestingFactsGermanFragment"
+        android:label="fragment_intresting_facts_german"
+        tools:layout="@layout/fragment_intresting_facts_german" />
+    <fragment
+        android:id="@+id/germanCuisineFragment"
+        android:name="com.germanart.germantourguide.GermanCuisineFragment"
+        android:label="fragment_german_cuisine"
+        tools:layout="@layout/fragment_german_cuisine" />
+    <fragment
+        android:id="@+id/airportsGermanFragment"
+        android:name="com.germanart.germantourguide.AirportsGermanFragment"
+        android:label="fragment_airports_german"
+        tools:layout="@layout/fragment_airports_german" />
+    <fragment
+        android:id="@+id/addInfoFragment"
+        android:name="com.germanart.germantourguide.AddInfoFragment"
+        android:label="fragment_add_info"
+        tools:layout="@layout/fragment_add_info" />
+</navigation>

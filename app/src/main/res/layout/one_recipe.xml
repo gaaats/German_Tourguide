@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    android:background="@drawable/bkg_custom_grad_lin"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="6"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="rice simple" />
+
+
+    <TextView
+        android:id="@+id/tv_ingridients"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_weight="4"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="rice egg rice rice rice rice" />
+
+    <ImageView
+        android:id="@+id/img_logo_food"
+        android:layout_width="0dp"
+        android:src="@drawable/sausages"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:layout_height="35dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

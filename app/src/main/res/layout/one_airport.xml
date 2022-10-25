@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="12"
+    android:background="@drawable/bkg_custom_grad_lin"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tv_name_airport"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="7"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="London Heathrow Airport" />
+
+
+    <TextView
+        android:id="@+id/tv_iata"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_weight="3"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="LHR" />
+
+    <ImageView
+        android:id="@+id/img_logo_airport"
+        android:layout_width="0dp"
+        android:src="@drawable/airport"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:layout_height="35dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
